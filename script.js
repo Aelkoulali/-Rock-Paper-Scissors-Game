@@ -51,3 +51,8 @@ function showResults(userOption) {
   }
 
 };
+
+// Function Reset game
+function resetGame() {
+
+};
