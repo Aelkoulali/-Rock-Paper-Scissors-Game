@@ -1,9 +1,11 @@
+// Function Get Rendom Computer Result
 function getRandomComputerResult() {
     const options = ["Rock", "Paper", "Scissors"];
     const randomIndex = Math.floor(Math.random() * options.length);
     return options[randomIndex];
 }
-  
+
+// Function Player Has Won The Round   
 function hasPlayerWonTheRound(player, computer) {
     return (
       (player === "Rock" && computer === "Scissors") ||
@@ -14,7 +16,8 @@ function hasPlayerWonTheRound(player, computer) {
   
 let playerScore = 0;
 let computerScore = 0;
-  
+
+// Function Get Round Result  
 function getRoundResults(userOption) {
   const computerResult = getRandomComputerResult();
   
@@ -36,6 +39,7 @@ const winnerMsgElement = document.getElementById("winner-msg");
 const optionsContainer = document.querySelector(".options-container");
 const resetGameBtn = document.getElementById("reset-game-btn");
 
+// Function Show Results
 function showResults(userOption) {
   roundResultsMsg.innerText = getRoundResults(userOption);
   computerScoreSpanElement.innerText = computerScore;

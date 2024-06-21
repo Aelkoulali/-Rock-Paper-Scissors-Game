@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors-Game
-HTML, CSS & JAVASCRIPT
+## HTML, CSS & JAVASCRIPT
